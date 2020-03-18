@@ -1,0 +1,55 @@
+.title{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.maincontainer{
+    text-align: center;
+}
+.TextinputConfirmer{
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.TextinputRecovered{
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.showresult{
+    background-color: rgb(104, 222, 31);
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.resulttext{
+    width: 500px;
+    height: 100px;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.LiveBoard{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.language_button{
+    text-align: right;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: powderblue;
+    font-size: 18px;
+    font-weight: bold;
+}

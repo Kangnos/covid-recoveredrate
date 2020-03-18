@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>완치율 계산기</title>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="titleDiv">
+            <h1 class="title">완치율 계산기</h1>
+        </div>
+        <script>
+        </script>
+        <div class="textbuttonDiv">
+            <input type="text" class="TextinputConfirmer" id = "text1" placeholder="확진자 수 입력(Input Confirmer numbers)">
+            <input type="text" class="TextinputRecovered" id = "text2" placeholder="완치자 수 입력(Input Recovered numbers)">
+        </div>
+        <div class="buttonDiv">
+            <button onclick="ShowSum()" class="showresult">완치율 보기(Show a result)</button>
+        </div>
+        <div class="resultDiv">
+            <input type="text" class="resulttext" placeholder="환치율이 나옵니다(recover rate will shown)">
+        </div>
+        <div style="margin-top: 60px;">
+            <a href="https://www.worldometers.info/coronavirus/" class="LiveBoard">코로나 바이러스 현황판(Covid live board)</a>
+        </div>
+        <input id = "night_day" type="button" value="night" class="language_button" onclick="
+            if (document.querySelector('#night_day').value === 'night') {
+                document.querySelector('body').style.backgroundColor = 'black';
+                document.querySelector('body').style.color = 'white';
+                docuemnt.querySelector('#night_day').value = 'day';
+            }
+            else{
+                document.querySelector('body').style.backgroundColor = 'white';
+                document.querySelector('body').style.color = 'black';
+                document.querySelector('#night_day').value = 'night';
+            }
+        ">
+    </div>
+</body>
+</html>
+<script type="text/javascript" src = "main.js"></script>
+<link rel="stylesheet" href="index.css">
